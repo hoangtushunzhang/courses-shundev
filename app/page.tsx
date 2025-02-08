@@ -1,7 +1,10 @@
+import Home from "@/components/Home/Home";
 import React from "react";
 
 const Homepage = () => {
-  return <div className="text-5xl text-blue-700">Homepage</div>;
+  return <div className="overflow-hidden">
+    <Home/>
+  </div>;
 };
 
 export default Homepage;
