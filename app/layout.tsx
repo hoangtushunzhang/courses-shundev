@@ -1,10 +1,21 @@
 import type { Metadata } from "next";
-import { Rethink_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const font = Rethink_Sans({
-  weight: ["400", "500", "700", "800"],
-  subsets: ["latin"],
+const beVietnam = localFont({
+  src: [
+    {
+      path: "./fonts/BeVietnamPro-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/BeVietnamPro-ExtraBold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-vietnam",
 });
 
 export const metadata: Metadata = {
@@ -18,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${font.className} antialiased`}>
+    <html lang="en" className={beVietnam.variable}>
+      <body className={`antialiased`}>
           {children}
       </body>
     </html>
