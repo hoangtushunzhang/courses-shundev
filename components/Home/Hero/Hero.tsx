@@ -57,7 +57,7 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="flex mt-6 items-center space-x-4">
+            <div className="flex items-center space-x-4">
               <Image
                 src="/images/linkedin.png"
                 alt="linkedin"

@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-      <section className="flex items-center justify-between border-b px-20 py-4 shadow-sm">
+      <section className="flex items-center justify-between border-b px-20 py-4 shadow-sm bg-white">
         <Link href={"/"} className="hidden lg:block">
           <Logo />
         </Link>
