@@ -20,7 +20,11 @@ const Services = () => {
         {/* {Grid} */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center gap-y-12 mt-16">
           {/* {1st box} */}
-          <div className="flex items-center space-x-5 ">
+          <div
+            className="flex items-center space-x-5"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+          >
             <div className="w-24 h-14 rounded-md flex items-center justify-center bg-pink-500 flex-col bg-opacity-20">
               <FaRocket className="w-6 h-6 text-orange-400" />
             </div>
@@ -34,7 +38,12 @@ const Services = () => {
           </div>
           {/* {2st box} */}
 
-          <div className="flex items-center space-x-5">
+          <div
+            className="flex items-center space-x-5"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="100"
+          >
             <div className="w-24 h-14 rounded-md flex items-center justify-center bg-pink-500 flex-col bg-opacity-20">
               <FaBriefcase className="w-6 h-6 text-orange-400" />
             </div>
@@ -48,7 +57,12 @@ const Services = () => {
           </div>
           {/* {3st box} */}
 
-          <div className="flex items-center space-x-5">
+          <div
+            className="flex items-center space-x-5"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="200"
+          >
             <div className="w-24 h-14 rounded-md flex items-center justify-center bg-pink-500 flex-col bg-opacity-20">
               <FaShoppingCart className="w-6 h-6 text-orange-400" />
             </div>
@@ -62,7 +76,12 @@ const Services = () => {
           </div>
           {/* {4st box} */}
 
-          <div className="flex items-center space-x-5">
+          <div
+            className="flex items-center space-x-5"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="300"
+          >
             <div className="w-24 h-14 rounded-md flex items-center justify-center bg-pink-500 flex-col bg-opacity-20">
               <MdOutlineDesignServices className="w-6 h-6 text-orange-400" />
             </div>
@@ -76,7 +95,12 @@ const Services = () => {
           </div>
           {/* {5st box} */}
 
-          <div className="flex items-center space-x-5 h-full">
+          <div
+            className="flex items-center space-x-5 h-full"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="400"
+          >
             <div className="w-24 h-14 rounded-md flex items-center justify-center bg-pink-500 flex-col bg-opacity-20">
               <IoColorPaletteOutline className="w-6 h-6 text-orange-400" />
             </div>
@@ -85,13 +109,19 @@ const Services = () => {
                 Unlimited Colors
               </p>
               <p className="text-sm text-gray-600">
-                Màu sắc đẹp mắt giúp sản phẩm của bạn trở nên nổi bật hơn , thu hút hơn.
+                Màu sắc đẹp mắt giúp sản phẩm của bạn trở nên nổi bật hơn , thu
+                hút hơn.
               </p>
             </div>
           </div>
           {/* {6st box} */}
 
-          <div className="flex items-center space-x-5">
+          <div
+            className="flex items-center space-x-5"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="500"
+          >
             <div className="w-24 h-14 rounded-md flex items-center justify-center bg-pink-500 flex-col bg-opacity-20">
               <FaChess className="w-6 h-6 text-orange-400" />
             </div>

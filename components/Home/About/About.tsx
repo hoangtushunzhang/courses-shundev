@@ -7,7 +7,7 @@ const About = () => {
     <div className="pt-16 pb-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* {Image Content} */}
-        <div>
+        <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
           <Image src="/images/about.png" alt="about" width={450} height={450} />
         </div>
         {/* {Text Content} */}
@@ -41,7 +41,9 @@ const About = () => {
                 />
                 <div>
                   <p className="font-medium">HIEUTHUHAI</p>
-                  <p className="text-gray-700 text-sm">Nghệ sĩ đại diện @TechDev</p>
+                  <p className="text-gray-700 text-sm">
+                    Nghệ sĩ đại diện @TechDev
+                  </p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "@/components/Home/Footer/Footer";
+import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 const beVietnam = localFont({
   src: [
@@ -31,7 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={beVietnam.variable}>
       <body className={`antialiased`}>
-          {children}
+        {children}
+        <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );

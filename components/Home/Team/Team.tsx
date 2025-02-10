@@ -35,6 +35,8 @@ const Team = () => {
             <div
               key={index}
               className="relative overflow-hidden w-[300px] h-[350px] rounded-lg"
+              data-aos="fade-right"
+              data-aos-anchor-placement="top-center"
             >
               <div className="w-full h-full">
                 <Image

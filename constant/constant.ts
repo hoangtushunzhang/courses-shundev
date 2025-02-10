@@ -44,3 +44,26 @@ export const navLinks = [
         icon: Contact2Icon,
     },
 ]
+
+export const footerLinks = [
+    {
+      title: "Giải pháp",
+      links: ["Doanh nghiệp", "Lưu lượng làm việc", "Bởi đội ngũ"],
+    },
+    {
+      title: "Công ty",
+      links: ["Về chúng tôi", "Tin tức & Báo chí", "Khách hàng", "Lãnh đạo", "Tuyển dụng"],
+    },
+    {
+      title: "Tài nguyên",
+      links: ["Blog", "Hội thảo & Sự kiện", "Podcast", "E-book & Hướng dẫn"],
+    },
+    {
+      title: "Liên hệ",
+      links: [
+        { text: "Số điện thoại", value: "+0356400315", isBold: true },
+        { text: "Email", value: "quang456a@gmail.com", isBold: true },
+      ],
+    },
+  ];
+  

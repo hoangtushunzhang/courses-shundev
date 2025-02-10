@@ -15,7 +15,7 @@ const Hero = () => {
       gap-10"
       >
         {/* {Text Content} */}
-        <div>
+        <div data-aos="fade-up">
           <p className="text-sm sm:text-base md:text-xl font-bold text-blue-950">
             Đầu tư thông minh nhất
           </p>
@@ -102,7 +102,7 @@ const Hero = () => {
           </div>
         </div>
         {/* {Image Content} */}
-        <div className="mx-auto hidden xl:block">
+        <div data-aos="fade-down" data-aos-delay="150" className="mx-auto hidden xl:block">
           <Image src="/images/hero.jpg" alt="image" width={900} height={900} />
         </div>
       </div>

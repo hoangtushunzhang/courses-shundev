@@ -12,29 +12,47 @@ const ClientReview = () => {
         ngại để lại phản hồi của mình về chúng tôi.
       </p>
       {/* {grid} */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  items-center mt-16 w-[80%] mx-auto">
-        
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center mt-16 w-[80%] mx-auto">
+        <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
           <ClientReviewCard
             image="/images/u1.jpg"
             name="HIEUTHUHAI"
             rating="4.7"
           />
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
           <ClientReviewCard
             image="/images/u2.jpg"
             name="Ngô Kiến Huy"
             rating="4.9"
           />
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
           <ClientReviewCard
             image="/images/u3.jpg"
             name="Ninh Dương Lan Ngọc"
             rating="4.8"
           />
+        </div>
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="300"
+        >
           <ClientReviewCard
             image="/images/u4.jpg"
             name="Khổng Tú Quỳnh"
             rating="4.9"
           />
-      
+        </div>
       </div>
     </div>
   );

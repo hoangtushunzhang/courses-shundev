@@ -19,7 +19,11 @@ const Feature = () => {
         {/* {Inner grid} */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* {1st box} */}
-          <div className="bg-white p-4 rounded-lg">
+          <div
+            className="bg-white p-4 rounded-lg"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+          >
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20">
                 <MdOutlineTouchApp className="w-6 h-6 text-pink-400" />
@@ -35,7 +39,12 @@ const Feature = () => {
             </p>
           </div>
           {/* {2st box} */}
-          <div className="bg-white p-4 rounded-lg">
+          <div
+            className="bg-white p-4 rounded-lg"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="100"
+          >
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20">
                 <MdOutlineTouchApp className="w-6 h-6 text-pink-400" />
@@ -51,7 +60,12 @@ const Feature = () => {
             </p>
           </div>
           {/* {3st box} */}
-          <div className="bg-white p-4 rounded-lg">
+          <div
+            className="bg-white p-4 rounded-lg"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="200"
+          >
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20">
                 <MdOutlineTouchApp className="w-6 h-6 text-pink-400" />
@@ -67,7 +81,12 @@ const Feature = () => {
             </p>
           </div>
           {/* {4st box} */}
-          <div className="bg-white p-4 rounded-lg">
+          <div
+            className="bg-white p-4 rounded-lg"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="300"
+          >
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20">
                 <MdOutlineTouchApp className="w-6 h-6 text-pink-400" />
@@ -84,7 +103,9 @@ const Feature = () => {
           </div>
         </div>
         {/* {Image Content} */}
-        <div>
+        <div data-aos="fade-left"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="400">
           <Image src="/images/f1.png" alt="feature" width={700} height={700} />
         </div>
       </div>
