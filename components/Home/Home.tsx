@@ -1,8 +1,10 @@
 import About from "./About/About";
+import ClientReview from "./ClientReview/ClientReview";
 import Feature from "./Feature/Feature";
 import Hero from "./Hero/Hero";
 import Header from "./Navbar/Header";
 import Services from "./Services/Services";
+import Team from "./Team/Team";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <About />
       <Feature />
       <Services />
+      <ClientReview />
+      <Team />
     </div>
   );
 };
