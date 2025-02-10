@@ -17,7 +17,9 @@ const PriceCard = ({ time, price }: Props) => {
           <span className="text-4xl font-bold text-black">${price}</span>
         </div>
       </div>
-      <Button className="mt-12 bg-[#CD009F] hover:bg-[#CD009F]/70 py-6 px-10">Nâng cấp gói</Button>
+      <Button className="mt-12 bg-[#CD009F] hover:bg-[#CD009F]/70 py-6 px-10">
+        Nâng cấp gói
+      </Button>
     </div>
   );
 };
