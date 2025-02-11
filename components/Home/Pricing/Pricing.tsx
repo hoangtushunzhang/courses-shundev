@@ -3,7 +3,7 @@ import PriceCard from "./PriceCard";
 
 const Pricing = () => {
   return (
-    <div className="pt-16 pb-16 bg-gray-100">
+    <div className="pt-16 pb-16 bg-gray-100" id="pricing">
       <h1 className="text-center text-2xl text-blue-950 font-bold">
         Chọn gói dịch vụ phù hợp với bạn
       </h1>

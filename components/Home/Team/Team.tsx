@@ -5,7 +5,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-16 pb-16" id ="team">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
         {/* {Text content} */}
         <div className="lg:col-span-2">

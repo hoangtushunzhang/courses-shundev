@@ -6,7 +6,7 @@ import { MdOutlineDesignServices } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-16 pb-16" id ="services">
       <div className="w-[80%] mx-auto">
         <BoxText> Dịch vụ của chúng tôi</BoxText>
         {/* {Heading} */}

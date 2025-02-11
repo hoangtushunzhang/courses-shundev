@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="pb-16 pt-16 ">
+    <div className="pb-16 pt-16 " id="contact">
       <div className="w-[80%] mx-auto items-start grid-cols-1 sm:grid-cols-2 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
         {footerLinks.map((section, index) => (
           <div key={index} className="space-y-5">

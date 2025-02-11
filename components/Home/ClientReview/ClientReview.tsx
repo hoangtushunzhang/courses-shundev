@@ -3,7 +3,7 @@ import ClientReviewCard from "./ClientReviewCard";
 
 const ClientReview = () => {
   return (
-    <div className="pb-16 pt-16 bg-gray-100 ">
+    <div className="pb-16 pt-16 bg-gray-100 " id="reviews">
       <h1 className="text-center text-2xl text-blue-950 font-bold">
         Feedback của Khách hàng
       </h1>

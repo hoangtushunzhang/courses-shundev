@@ -27,7 +27,7 @@ const Home = () => {
     initAOS();
   }, []);
   return (
-    <div>
+    <div id ="home">
       <div className="sticky top-0 w-full z-50">
         <Header />
       </div>
